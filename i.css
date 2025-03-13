@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto Mono", monospace;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 80px;
+}
+.logo{
+    width: 130px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.list{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+}
+.list:hover{
+    color: red;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 13% 0px 0px 8%;
+}
+#username{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-family: "Moon Dance", cursive;
+}
+#lname{
+    color: orange;
+    font-family: "Moon Dance", cursive;
+}
+#userdetails{
+    line-height: 1.2;
+    font-family: "Arimo", sans-serif;
+}
+#download{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.home-img{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.home-img:hover #shape{
+    bottom: 80px;
+}
+.home-img:hover #lady{
+    left: 30%;
+}
+
+#about{
+    margin: 15% 8% 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+}
+#mainhead{
+    font-size: 30px;
+}
+#subhead{
+    font-size: 20px;
+    color: green;
+}
+.aboutbody{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    align-items: center;
+}
+.img1{
+    width: 100%;
+}
+.aboutcontant{
+    font-size: 20px;
+    text-align: justify;
+}
+.informations{
+    margin-top: 1.6rem;
+}
+.infoBox{
+    margin-bottom: 10px;
+}
+.infoBox>span{
+    margin-left: 1rem;
+}
+#skill {
+    margin: 5rem 8%; /* Adjust margin to align below about section */
+}
+
+.skillcontent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two-column layout */
+    align-items: center; /* Align items vertically */
+    gap: 2rem;
+    margin-top: 20px;
+}
+
+.progressbars {
+    width: 100%;
+}
+
+.bars {
+    margin-bottom: 1rem;
+}
+
+.barhead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.basebar {
+    width: 100%;
+    height: 10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 5px;
+}
+
+
+.skillimage {
+    display: flex;
+    justify-content: center;
+}
+
+.skillimage img {
+    width: 80%;
+    max-width: 400px;
+}
+

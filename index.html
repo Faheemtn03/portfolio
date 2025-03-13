@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawsome link-->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"/>
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Moon+Dance&family=Playwrite+IT+Moderna:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <!-- Navigation bar -->
+         <nav>
+            <!-- logo -->
+             <img class="logo" src="./images/image.png" alt="">
+             <!-- links -->
+              <ul>
+                <li class="list-items"> <a class="list" href="#home-content">Home</a> </li>
+                <li class="list-items"> <a class="list" href="#about">About</a> </li>
+                <li class="list-items"> <a class="list" href="#skill">Skills</a> </li>
+                <li class="list-items"> <a class="list" href="#contact">Contact</a> </li>
+                
+              </ul>
+         </nav>
+        <!-- home -->
+        <section>
+             <!-- home content -->
+            <div class="home-content">
+                <h1 class="animate__animated animate__backInLeft" id="username">I'm <span id="lname">Faheem</span></h1>
+                <p id="userdetails" >This is my official website to discribe all 
+                    details <br> and work experience in web development</p>
+                    <a id="download" href="./images/Faheem TN.pdf" download> DOWNLOAD CV</a>
+            </div>
+
+            <!-- home image -->
+             <div class="home-img">
+                <!-- shape -->
+                 <img id="shape" class="group1" src="./images/WhatsApp_Image_2025-03-01_at_15.03.39_ab8ab8ef-removebg-preview.png" alt="">
+                <!-- girl -->
+                <img id="lady" class="group1" src="./images/WhatsApp_Image_2025-03-01_at_15.03.40_b9e683f3-removebg-preview.png" alt="">
+             </div>
+        </section>
+
+        <!-- about -->
+        <section id="about">
+            <div class="sectionhead">
+                <h2 id="mainhead" >About Me</h2>
+                <span id="subhead" >Introduction</span>
+            </div>
+            <div class="aboutbody">
+                <div class="aboutimage">
+                    <img data-aos="fade-right" class="img1" src="./images/cartoon-boy-taking-photo-using-digital-camera_1059911-4076.jpg" alt="no image">
+                </div>
+                <div class="aboutcontant">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, cupiditate, minima consequatur ex fugiat soluta atque accusamus quidem similique possimus eveniet perferendis. Iusto necessitatibus possimus consectetur nihil, vitae saepe praesentium!</p>
+                    <div class="informations">
+                        <div class="infoBox">
+                            <i class="fa-solid fa-user"></i>
+                            <span>faheem</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>55452121</span>
+                        </div>
+                        <div class="infoBox">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>test123@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- skill -->
+         <section id="skill">
+            <div class="sectionhead">
+                <h2 id="mainhead" >skills</h2>
+                <span id="subhead" >my skills</span>
+            </div>
+            <!-- progress bar -->
+            <div class="slillcontent">
+                <div class="progressbars">
+                    
+                    <div class="bars">
+                            <h3 class="mainhead">HTML</h3>
+                            <span class="barpercentage">79%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar Htmlbar"></div>
+                    </div>
+                    <div class="bars">
+                            <h3 class="mainhead">CSS</h3>
+                            <span class="barpercentage">75%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar csslbar"></div>
+                    </div>
+                    <div class="bars">
+                            <h3 class="mainhead">JS</h3>
+                            <span class="barpercentage">73%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar jsbar"></div>
+
+                    </div>
+                    <div class="bars">                         
+                            <h3 class="mainhead">REACT</h3>
+                            <span class="barpercentage">80%</span>
+                            <div class="basebar"></div>
+                            <div class="basebar reactbar"></div>
+                    </div>
+
+                </div> 
+                <div data-aos="fade-left" class="skillimage">
+                    <img width="100%" class="myskill" src="./images/imagw12333.webp" alt="no image">
+                </div>
+            </div>
+         </section>
+        <!-- contact -->
+         <section id="contact">
+            <div class="sectionhead">
+                <h2 id="mainhead" >Contact</h2>
+                <span id="subhead" >my contact</span>
+            </div>
+            <div class="iconcollection">
+                <!-- linkedin -->
+                 <div class="icon">
+                    <a href="https://www.linkedin.com/in/faheem-t-n-a81294266/" target="_blank"><i class="fa-brands fa-linkedin-in brands"></i></a>
+                 </div>
+                <!-- github -->
+                <div class="icon">
+                    <a href="https://github.com/Faheemtn03" target="_blank"><i class="fa-brands fa-github brands"></i></a>
+                 </div>
+                <!-- twiter -->
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/faheem-t-n-a81294266/" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+                 </div>
+                 <!-- whatsapp -->
+                <div class="icon">
+                    <a href="https://wa.me/7736912807" target="_blank"><i class="fa-brands fa-whatsapp brands"></i></a>
+                 </div>
+                <!-- instagram -->
+                <div class="icon">
+                    <a href="https://www.instagram.com/fahyee_?igsh=MXgwOWdueDd5ZG1ybg==" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+                <!-- mail -->
+                <div class="icon">
+                    <a href="mailto:faheemtn03@gmail.com" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+                 </div>
+
+            </div>
+
+         </section>
+
+        <!-- footer -->
+
+        <footer>
+            <p id="copyright">&copy; MY PORTFOLIO WEBSITE -MARCH 2025 , ALL RIGHT RECIVED TO &REG; FAHEEM TN</p>
+            <div class="icon uparow">
+                <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+             </div>
+        </footer>
+   
+    </div>
+    
+</body>
+<!-- aos script  -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>   
